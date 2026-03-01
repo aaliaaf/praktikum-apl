@@ -38,7 +38,6 @@ int main() {
             cin.get();
             continue; 
         }
-        
         cout << "Password : ";
         getline(cin, password);
         
@@ -61,7 +60,6 @@ int main() {
             cin.get();
             continue;
         }
-
         if(nama == username && password == pass) {
             cout << endl;
             cout << "LOGIN BERHASIL!" << endl;
@@ -78,7 +76,6 @@ int main() {
             kesempatan--;
         }
     }
-
     if(aksesLogin == false) {
         cout << endl;
         cout << "KESEMPATAN 3 KALI LOGIN SUDAH HABIS" << endl;
