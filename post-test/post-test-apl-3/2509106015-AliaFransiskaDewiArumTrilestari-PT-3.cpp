@@ -1,9 +1,7 @@
 #include <iostream>
 #include <string>
-#include <vector> 
-#include <iomanip>
+#include <vector>
 #include "../../table/text_table.h" 
-#include <cstdlib> 
 using namespace std;
 
 struct RincianTas {
